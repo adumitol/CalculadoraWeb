@@ -3,7 +3,7 @@ pipeline {
 
     // Aquí definimos la herramienta Maven que configuraste en Jenkins
     tools {
-        maven 'maven' // Asegúrate de que este nombre coincida con el que pusiste en 'Global Tool Configuration'
+        maven 'Maven' // Asegúrate de que este nombre coincida con el que pusiste en 'Global Tool Configuration'
     }
 
     stages {
