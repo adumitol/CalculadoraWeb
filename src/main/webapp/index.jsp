@@ -10,7 +10,7 @@
 
     <br/><br/>
 
-    <label>Número B:</label>
+    <label>Número B22:</label>
     <input type="text" name="b" />
 
     <br/><br/>
