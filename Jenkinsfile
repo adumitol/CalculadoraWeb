@@ -1,13 +1,11 @@
 pipeline {
     agent any
-
-    // Aquí definimos la herramienta Maven que configuraste en Jenkins
     tools {
         maven 'Maven' // Asegúrate de que este nombre coincida con el que pusiste en 'Global Tool Configuration'
     }
 
     stages {
-        // Paso 1: El git (Jenkins lo hace automáticamente al usar 'Pipeline from SCM')
+        // Paso 1: El git
         stage('Paso 1: Git Checkout') {
             steps {
                 checkout scm
