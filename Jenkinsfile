@@ -1,7 +1,7 @@
 pipeline {
     agent any
     tools {
-        maven 'Maven' // Asegúrate de que este nombre coincida con el que pusiste en 'Global Tool Configuration'
+        maven 'Maven' // Hay que asegurarse de que este nombre coincida con el que pones en 'Global Tool Configuration'
     }
 
     stages {
